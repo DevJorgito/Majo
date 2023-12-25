@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <title>Mari y Jorge</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff66b2; /* Color rosa */
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-family: 'Pacifico', cursive;
+            font-size: 2em;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        #aniversario {
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #555;
+        }
+
+        #fotos {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+        }
+
+        .corazon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            color: #ff66b2;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        #secciones {
+            margin-top: 30px;
+            padding: 20px;
+        }
+
+        .seccion {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .seccion h2 {
+            font-family: 'Pacifico', cursive;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .subtitulo {
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .imagenes-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .imagenes-container img {
+            max-width: 100%;
+            max-height: 300px; /* Altura máxima */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .carta-container {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .carta {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #fotos-nina {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        #fotos-nina img {
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .body__title {
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        button {
+            background-color: #ff66b2;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mari y Jorge</h1>
+    </header>
+
+    <div id="aniversario">¡Feliz Primer Aniversario!</div>
+
+    <div id="fotos">
+        <img src="imagenes/jorge.jpeg" alt="Foto 1">
+        <div class="corazon">❤️</div>
+        <img src="imagenes/mari.jpeg" alt="Foto 2">
+    </div>
+
+    <div id="secciones">
+        <div class="seccion">
+            <h2>Nuestro Primer Año Juntos</h2>
+            <p class="subtitulo">Un año lleno de risas, conversaciones y amor a pesar de la distancia, hasta el huevito lo sabe</p>
+            <img src="imagenes/1ano.jpeg" alt="Primer año juntos">
+        </div>
+
+        <div class="seccion">
+            <h2>Nuestra Frase Favorita</h2>
+            <p class="subtitulo">"There is nothing happier than spending time with the person you love."</p>
+        </div>
+
+        <div class="seccion">
+            <h2>Nuestro Juego Favorito</h2>
+            <p class="subtitulo">Aunque a veces nos tenga hasta los huevos, siempre ahí♡</p>
+            <div class="imagenes-container">
+                <img src="imagenes/valo1.jpeg" alt="Valorant 1">
+                <img src="imagenes/valo2.jpeg" alt="Valorant 2">
+                <img src="imagenes/valo3.jpeg" alt="Valorant 3">
+            </div>
+        </div>
+
+        <div class="seccion">
+            <h2>❣️ Nuestros Hijos ❣️</h2>
+            <p class="subtitulo">El jogito, Maren y Sam💞</p>
+            <div class="imagenes-container">
+                <img src="imagenes/hijo1.jpeg" alt="Hijo 1">
+                <img src="imagenes/hijo2.jpeg" alt="Hijo 2">
+                <img src="imagenes/hijo3.jpeg" alt="Hijo 3">
+            </div>
+        </div>
+
+        <div class="seccion">
+            <h2>💌 Carta de Amor 💌</h2>
+            <div class="carta-container">
+                <div class="carta">
+                    <p>Mi Querida Mari,</p>
+                    <p>En este día tan especial, quiero tomarme un momento para celebrar y felicitarnos por el amor que hemos construido juntos en este último año, a pesar de la distancia física, los problemas que hemos enfrentado, siempre hemos sabido como seguir adelante juntos y nos felicito por ello.</p>
+                    <p>Cada mensaje, cada llamada, cada risa compartida y cada momento donde nos apoyamos es un regalo preciado. Aunque no podamos celebrar este aniversario en persona quiero que sepas que está en mi corazón y valoro cada recuerdo que hemos creado juntos, y más aún los que nos falta por crear día con día.</p>
+                    <p>Gracias por ser mi compañera de vida, incluso a través de una pantalla, te valoro y admiro demasiado, eres una mujer maravillosa y estoy emocionado por muchos más aniversarios y recuerdos que nos esperan en el futuro.</p>
+                    <p>Con todo mi amor,</p>
+                    <p>Jorge.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion">
+            <h2>👸🏻 Mi princesa 👸🏻</h2>
+            <p class="subtitulo">Porque no importa cuanto tiempo pase, siempre serás mi niña y ese anillo es más que una promesa🤍</p>
+            <div id="fotos-nina">
+                <img src="imagenes/niña1.jpeg" alt="Niña 1">
+                <img src="imagenes/niña2.jpeg" alt="Niña 2">
+                <img src="imagenes/niña3.jpeg" alt="Niña 3">
+            </div>
+        </div>
+
+<!-- Nueva sección -->
+<!-- Nueva sección -->
+<div class="seccion" id="botones-seccion">
+    <h2>¿Seguimos luchando los dos contra el mundo?</h2>
+    <br>
+    <div id="botones-container" style="position: relative;">
+        <button id="yes">Sí mi vida</button>
+        <button id="no" onmouseover="ebitarKCRompaMyBobo()">Naa</button>
+    </div>
+
+    <script>
+        const vuttonSi = document.getElementById('yes');
+        const botonesContainer = document.getElementById('botones-container');
+        const botonesSeccion = document.getElementById('botones-seccion');
+
+        const zomosNobios = () => {
+            alert('VAMOOO *Con voz gansosa*');
+            alert('No sé que nos espera, pero te juro que moriremos intentándolo ღ');
+            location.href = 'https://www.youtube.com/watch?v=fExYpabBfbI';
+        };
+
+        const ebitarKCRompaMyBobo = () => {
+            const vuttonNo = document.getElementById('no');
+            const rect = botonesContainer.getBoundingClientRect();
+
+            vuttonNo.style.position = 'absolute';
+            vuttonNo.style.top = (Math.random() * (rect.height - vuttonNo.clientHeight) + 'px');
+            vuttonNo.style.left = (Math.random() * (rect.width - vuttonNo.clientWidth) + 'px');
+        };
+
+        vuttonSi.addEventListener('click', zomosNobios);
+    </script>
+</div>
+
+
+
+
+</body>
+</html>
